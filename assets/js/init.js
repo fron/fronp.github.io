@@ -44,7 +44,9 @@
         { src: "assets/images/slide_img01.jpg" },
         { src: "assets/images/slide_img02.jpg" },
         { src: "assets/images/slide_img03.jpg" },
-        { src: "assets/images/slide_img04.jpg" }
+        { src: "assets/images/slide_img04.jpg" },
+        { src: "assets/images/slide_img05.jpg" },
+        { src: "assets/images/slide_img06.jpg" }      
       ],
       animation: [ 'kenburnsUp', 'kenburnsDown', 'kenburnsLeft', 'kenburnsRight' ]
     });
