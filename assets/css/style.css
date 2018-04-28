@@ -1478,6 +1478,15 @@ img {
   text-transform: uppercase;
 }
 
+.intro-title_1 {
+  font-size: 2em;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+
+
+
 @media screen and (min-width: 640px) {
   .intro-section {
     position: absolute;

@@ -1,3 +1,6 @@
+// This program generates an animation of several random points
+// interlaced among them
+
 (function() {
 
     var width, height, largeHeader, canvas, ctx, points, target, animateHeader = true;
@@ -11,7 +14,9 @@
         width = window.innerWidth;
         height = window.innerHeight;
         
-        /* this defines the position of anumation */ 
+        /* this defines the position of animation */ 
+        /* width is divided by 5 and anumation is place on the first 7th */
+        /* height is divided by 2 and anumation is placed on the first 3rd */
         target = {x: width/5, y: height/2};
 
         largeHeader = document.getElementById('animatedBg');
@@ -22,12 +27,12 @@
         canvas.height = height;
         ctx = canvas.getContext('2d');
 
-        // create points
+        // create 25 points  
         points = [];
-        for(var x = 0; x < width; x = x + width/20) {
-            for(var y = 0; y < height; y = y + height/20) {
-                var px = x + Math.random()*width/20;
-                var py = y + Math.random()*height/20;
+        for(var x = 0; x < width; x = x + width/25) {
+            for(var y = 0; y < height; y = y + height/25) {
+                var px = x + Math.random()*width/25;
+                var py = y + Math.random()*height/25;
                 var p = {x: px, originX: px, y: py, originY: py };
                 points.push(p);
             }
@@ -65,7 +70,7 @@
 
         // assign a circle to each point
         for(var i in points) {
-            var c = new Circle(points[i], 2+Math.random()*2, 'rgba(255,255,255,0.3)');
+            var c = new Circle(points[i], 2+Math.random()*2, 'rgba(255,255,255,0.3)'); // 255,255,255,0.3 color white
             points[i].circle = c;
         }
     }
@@ -149,18 +154,21 @@
     }
 
     // Canvas manipulation
+    // Here we can select the color of the lines
     function drawLines(p) {
         if(!p.active) return;
         for(var i in p.closest) {
             ctx.beginPath();
             ctx.moveTo(p.x, p.y);
             ctx.lineTo(p.closest[i].x, p.closest[i].y);
+            /*cyan */
+            ctx.strokeStyle = 'rgba(139,208,228,'+ p.active+')'; 
             /* yellow */
-            ctx.strokeStyle = 'rgba(254,193,7,'+ p.active+')'; 
+            /*ctx.strokeStyle = 'rgba(254,193,7,'+ p.active+')'; */ 
             /*red */
             /* ctx.strokeStyle = 'rgba(255,0,0,'+ p.active+')'; */
             /*blue */
-            /*ctx.strokeStyle = 'rgba(41,124,217,'+ p.active+')';*/
+            /*ctx.strokeStyle = 'rgba(41,124,217,'+ p.active+')'; */ 
             ctx.stroke();
         }
     }
@@ -175,11 +183,16 @@
             _this.color = color || null;
         })();
 
+        
+        // Here we can select the color of the dots
         this.draw = function() {
             if(!_this.active) return;
             ctx.beginPath();
             ctx.arc(_this.pos.x, _this.pos.y, _this.radius, 0, 2 * Math.PI, false);
-            ctx.fillStyle = 'rgba(255,179,0,'+ _this.active+')';
+            /* yellow */ 
+            /*ctx.fillStyle = 'rgba(255,179,0,'+ _this.active+')'; */ 
+            /*cyan */
+            ctx.fillStyle = 'rgba(139,208,228,'+ _this.active+')'; 
             ctx.fill();
         };
     }

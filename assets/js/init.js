@@ -1,5 +1,5 @@
 // **++*******************
-// * animation for home1
+// * animation for Slideshow
 // ***********************
 
 (function( $ ) {
@@ -43,7 +43,8 @@
       slides: [
         { src: "assets/images/slide_img01.jpg" },
         { src: "assets/images/slide_img02.jpg" },
-        { src: "assets/images/slide_img03.jpg" }
+        { src: "assets/images/slide_img03.jpg" },
+        { src: "assets/images/slide_img04.jpg" }
       ],
       animation: [ 'kenburnsUp', 'kenburnsDown', 'kenburnsLeft', 'kenburnsRight' ]
     });
