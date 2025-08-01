@@ -1,175 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <!--|Site Title|-->
-  <title>Home</title>
+	<meta charset="utf-8">
 
-  <!--|Google Font(Lato)|-->
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,300italic,300,100italic,100,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-  <!--|Font Icon(Font Awesome)|-->
-  <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<!--for responsiveness-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--for responsiveness-->
 
-  <!--|Vegas|-->
-  <link href="assets/css/vegas.min.css" rel="stylesheet" type="text/css">
-  <!--|reImageGrid|-->
-  <link href="assets/css/reImageGrid.css" rel="stylesheet" type="text/css">
-  <!--|Magnific Popup|-->
-  <link href="assets/css/magnific-popup.css" rel="stylesheet" type="text/css">
-  <!--|Owl Carousel|-->
-  <link href="assets/css/owl.carousel.css" rel="stylesheet" type="text/css">
-  <!--|Bootstrap|-->
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-
-  <!--|Site Stylesheet|-->
-  <link href="assets/css/style.css" rel="stylesheet" type="text/css">
-
-  <!--|Favicon|-->
-  <link rel="icon" href="assets/images/favicon.ico">
-  <!-- Touch Icons -->
-  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114.png">
-
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-  <script src="assets/js/html5shiv.min.js"></script>
-  <script src="assets/js/respond.min.js"></script>
-  <![endif]-->
+	<title>Francisco Ron Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
 
-<body class="home">
-  <!--|Preloader|-->
-  <div id="preloader" class="preloader">
-    <div class="preloader-inner">
-      <div>
-        <div></div>
-      </div>
-      <span class="fp-meta">Loading...</span>
-    </div>
-  </div> <!--|End Preloader|-->
+<body>
 
-  <!--|Toggle Button|-->
-  <a href="#" class="nav-toggle-btn collapsed"><span></span></a> <!--|End Toggle Button|-->
-
-  <!--|Full Page Nav|-->
-  <div class="full-page-nav">
-    <div class="full-page-nav-inner">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-5 block-center -text-center">
-            <!--|Menu|-->
-            <ul class="nav smooth-loading">
-              <li><a href="index.html">Home</a>
-                <ul class="sub-nav">
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="index_2.html">Slideshow</a></li>
-                </ul>
-              </li>
-              <li><a href="about.html">About Me</a></li>
-              <li><a href="gallery.html">Gallery</a>
-                <ul class="sub-nav">
-                  <li><a href="gallery_single.html">Gallery Portraits</a></li>
-                </ul>
-              </li>
- <!--             <li><a href="blog.html">Blog</a>
-                <ul class="sub-nav">
-                  <li><a href="blog_single.html">Blog Single</a></li>
-                </ul>
-              </li>  -->
-              <li><a href="contact.html">Contact Me</a></li>  
- <!--             <li><a href="shortcodes.html">Shortcodes</a></li> -->
-            </ul> <!--|End Menu|-->
-              
-            <!--|Social Links|-->
-            <div class="social-links">
-              <p class="fp-meta">Find Me on</p>
-              <a href="https://www.linkedin.com/in/francisco-ron-6b8462a8?trk=nav_responsive_tab_profile" target="_blank"><i class="fa fa-linkedin-square"></i></a>  
-              <a href="https://www.facebook.com/francisco.ron.7140" target="_blank"><i class="fa fa-facebook"></i></a>
-              <!--
-              <a href="#"><i class="fa fa-flickr"></i></a>
-              
-              <a href="#"><i class="fa fa-twitter"></i></a>
-              <a href="#"><i class="fa fa-instagram"></i></a>
-              --> 
-            </div> <!--|Social Links|-->
-
-            <!--|Copyright|-->
-            <div class="fp-copyright">2016 &copy; Francisco Ron. All right reserved</div> <!--|End Copyright|-->
-          </div>
+	<header class="header-main">
+		<div class="header-main-logo"> 
+			<img src="assets/images/fr3.png" alt="Francisco Ron Portfolio">
+        	<nav class="header-main-nav">
+        		<ul>
+        			<li><a href="index.html">HOME</a></li>
+        			<li><a href="gallery.html">GALLERY</a></li>
+        			<li><a href="about.html">ABOUT ME</a></li>
+        			<li><a href="contact.html">CONTACT</a></li>
+        		</ul>	
+        	</nav>
         </div>
-      </div>
-    </div>
-  </div> <!--|End Full Page Nav|-->
+        <div class="header-main-sm">
+        	<a href="https://www.facebook.com/francisco.ron.7140">
+        		<div class="header-main-sm-fb"></div>
+        	</a>
+        	<a href="https://www.linkedin.com/in/francisco-ron-6b8462a8?trk=nav_responsive_tab_profile">
+        		<div class="header-main-sm-li"></div>
+        	</a>
+        </div>
+    </header>
 
-  <!--|Wrapper|-->
-  <div id="animatedBg" class="wrapper">
-    <canvas id="canvasBg"></canvas>
+    <div class="image"></div>
+   	<br><br>
+       
+    <h1>Contact Me</h1> 
+    <br>
 
-    <div class="wrapper-inner">
-      <div class="intro-section">
-        <div class="container">
-          <div class="row">
-            <div class="block-center col-md-8 text-center">
-              <a class="site-logo smooth-loading-link" href="index_2.html"><img src="assets/images/logo.png" alt="Focus"></a>
-
-              <h2 class="intro-title">If pleasure is what you want, do not suppress the desire</h2>
-              <p class="intro-title_1">Seek it intelligently.</p>
+  	<p>Photography as most of us know it, as a hobby or a vocation, is a private endeavor.
+   	We make personal statements with our photographs, wether we realize it or not. 
+    The subjects we choose and the way we capture then on camera say a great deal about who we are. 
+    Photography has the power to reproduce more than waht wee see, however.
+    It can transform the particular to the universal, the mundane to the poetic.
+    And it is when we add out personal vision to the technology of photography that we cross that line 
+    from mere reproduction to an statement.<br><br>
+    I am not a photographer and I have all these pictures to prove it.</p>
  
-              <div class="btn-group smooth-loading">
-                <a class="btn btn-primary" href="gallery.html"><i class="fa fa-th-large"></i> Welcome </a>
-              </div>
-            </div>
-          </div>
+    <hr>
+
+    <br>
+   	<br>
+
+    <h1>Image Galleries</h1>
+    
+
+
+    <div class="row_1">
+        <div class="image-container">
+            <img src="assets/images/gallery_cover/gallery_1.png" alt="Portraits">
+            <a href="portraits.html">
+                <button class="btn_1">PORTRAITS</button>
+            </a>
         </div>
-      </div>
-
-      <!--|Footer|-->
-      <footer class="footer clearfix">
-        <!--|Social Links|-->
-       <div class="social-links">
-                    <a href="https://www.linkedin.com/in/francisco-ron-6b8462a8?trk=nav_responsive_tab_profile" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-                    <a href="https://www.facebook.com/francisco.ron.7140" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-<!--                    
-                    <a href="#" class="facebook" target="_blank"><i class="fa fa-flickr"></i></a>
-                    <a href="#" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-                    <a href="#" class="pinterest" target="_blank"><i class="fa fa-pinterest"></i></a>
-                    <a href="#" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a>  -->
-                  </div> <!--|Social Links|-->
-      </footer> <!--|End Footer|-->
+       
+        <div class="image-container">
+            <img src="assets/images/gallery_cover/gallery_2.png" alt="SAN FRANCISCO">
+            <a href="portraits.html">
+                <button class="btn_2">SAN FRANCISCO</button>
+            </a>
+        </div>
+          
+        <div class="image-container">
+            <img src="assets/images/gallery_cover/gallery_3.png" alt="SANTA MONICA">
+            <a href="portraits.html">
+                <button class="btn_3">SANTA MONICA</button>
+            </a>
+        </div>        
+         
     </div>
-  </div> <!--|End Wrapper|-->
 
-  <!--||Javascript||-->
-  <!--|Jquery|-->
-  <script src="assets/js/jquery.min.js"></script>
-  <!--|Mordernizer Custom Js|-->
-  <script type="text/javascript" src="assets/js/modernizr.custom.26633.js"></script>
-  <!--|Google Map Api|-->
-  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-  <!--|Fitvids|-->
-  <script src="assets/js/jquery.fitvids.js"></script>
-  <!--|Vegas|-->
-  <script src="assets/js/vegas.min.js"></script>
-  <!--|EasePack|-->
-  <script src="assets/js/EasePack.min.js"></script>
-  <!--|TweenLite|-->
-  <script src="assets/js/TweenLite.min.js"></script>
-  <!--|Gird Rotator|-->
-  <script src="assets/js/jquery.gridrotator.js"></script>
-  <!--|Magnific Popup|-->
-  <script src="assets/js/jquery.magnific-popup.min.js"></script>
-  <!--|Owl Carousel|-->
-  <script src="assets/js/owl.carousel.min.js"></script>
-  <!--|Bootstrap|-->
-  <script src="assets/js/bootstrap.min.js"></script>
-  <!--|Animated Background|-->
-  <script src="assets/js/animatedBackground.js"></script>
-  <!--|Site Custom Js|-->
-  <script src="assets/js/init.js"></script>
+    <div class="row_2">
+
+        <div class="image-container">
+            <img src="assets/images/gallery_cover/gallery_4.png" alt="MY DOGS">
+            <a href="portraits.html">
+                <button class="btn_1">MY DOGS</button>
+            </a>
+        </div>
+        
+        <div class="image-container">
+            <img src="assets/images/gallery_cover/gallery_5.png" alt="SPAIN">
+            <a href="portraits.html">
+                <button class="btn_1">SPAIN</button>
+            </a>
+        </div>
+        
+        <div class="image-container">
+            <img src="assets/images/gallery_cover/gallery_6.png" alt="LOS ANGELES">
+            <a href="portraits.html">
+                <button class="btn_1">LOS ANGELES</button>
+            </a>
+        </div>
+    </div>
+
+    
+        
+
+    <footer class="footer_main">
+        <div class="container_footer">
+            <div class="fp-copyright">2016 &copy; Francisco Ron. All rights reserved</div>
+            <!--|Social Links|-->
+             <div class="footer-main-sm">  
+                <a href="https://www.facebook.com/francisco.ron.7140">
+                    <div class="footer-main-sm-fb"></div>
+                </a>
+                <a href="https://www.linkedin.com/in/francisco-ron-6b8462a8?trk=nav_responsive_tab_profile">
+                    <div class="footer-main-sm-li"></div>
+                </a>
+            </div>
+        
+        </div>
+    </footer> <!--|End Footer|-->
+
 </body>
+
 </html>
+
+<!-- https://www.youtube.com/watch?v=HkNNyDtm7mg&list=PL0eyrZgxdwhwP0AxnbBiDBCi53LK9uCMZ&index=12 -->
+
+<!-- If we create an ID in HTML we refer to it with a # 
+HTML <p id="main"> This is a text </p> 
+CSS  #main {}  
+
+Shall we create a class (recomended)
+HTML <p class="main"> This is a text </p>
+CSS  .main -->  

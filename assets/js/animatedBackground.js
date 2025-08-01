@@ -15,7 +15,7 @@
         height = window.innerHeight;
         
         /* this defines the position of animation */ 
-        /* width is divided by 5 and anumation is place on the first 7th */
+        /* width is divided by 5 and animation is place on the first 7th */
         /* height is divided by 2 and anumation is placed on the first 3rd */
         target = {x: width/5, y: height/2};
 
