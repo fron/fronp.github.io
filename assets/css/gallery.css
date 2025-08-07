@@ -139,80 +139,28 @@ hr {
     border-bottom: 1px solid #fff;
 }
 
+ 
+
 .row_1 {
+	width: min(500px, 100%); /* Responsive width */
+	margin: 0 auto; /* Centers the Layout */ 
+	columns: 3 300px;
 	display:inline; /* put HOME . . . horizontaly */
-	float: left; /*squeeze all together*/
-	width: 100%;
-	height:100%;
-	display: flex;
-	justify-content: space-between;
-	padding-right: 50px;
-	padding-left: 50px;
-	align-items: center;
-	column-gap: 20px;
-	padding-top: 40px;
-	padding-bottom: 30px;
-}
-
-.image_2 {
-	width: 549px;
-	height: 367px;
-	background-image:url("../images/gallery_cover/gallery_2.png");
-	background-repeat: no-repeat;
-	display: flex;
-	float: left;
-}
-
-.image_3 {
-	width: 549px;
-	height: 367px;
-	background-image:url("../images/gallery_cover/gallery_3.png");
-	background-size: 100%;
-	background-repeat: no-repeat;
 }
 
 .row_2 {
+	width: min(500px, 100%); /* Responsive width */
+	margin: 0 auto; /* Centers the Layout */ 
+	columns: 3 300px;
 	display:inline; /* put HOME . . . horizontaly */
-	float: left; /*squeeze all together*/
-	width: 100%;
-	height:100%;
-	display: flex;
-	justify-content: space-between;
-	padding-right: 50px;
-	padding-left: 50px;
-	align-items: center;
-	column-gap: 20px;
-	padding-top: 40px;
-	padding-bottom: 30px;
-}
-
-.image_4 {
-	width: 549px;
-	height: 367px;
-	background-image:url("../images/gallery_cover/gallery_4.png");
-	background-size: 100%;
-	background-repeat: no-repeat;
-}
-
-.image_5 {
-	width: 549px;
-	height: 367px;
-	background-image:url("../images/gallery_cover/gallery_5.png");
-	background-size: 100%;
-	background-repeat: no-repeat;
-}
-
-.image_6 {
-	width: 549px;
-	height: 367px;
-	background-image:url("../images/gallery_cover/gallery_6.png");
-	background-size: 100%;
-	background-repeat: no-repeat;
 }
 
 .image-container {
   position: relative; /* Permite posicionar elementos hijos absolutos */
   display: inline-block; /* Para que el contenedor se ajuste al tamaño de la imagen */
+  padding-left: 2.5em;
+  padding-right:2.5em;
+  padding-bottom: 5em;
 }
 
 .image-container img {
