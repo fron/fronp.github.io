@@ -133,24 +133,19 @@ p {
 }
 
 .row_1 {
+	width: min(421px, 100%); /* Responsive width */
+	margin: 0 auto; /* Centers the Layout */ 
+	columns: 5 100px;
 	display:inline; /* put HOME . . . horizontaly */
-	float: left; /*squeeze all together*/
-	width: 100%;
-	height:100%;
-	justify-content: space-between;
-	padding-right: 37px;
-	padding-left: 37px;
-	align-items: center;
-	column-gap:  2px;
-	padding-top: 5px;
-	padding-bottom: 1px;
 	/*background-color: green;*/
 }
 
 .image_1{
 	width: 421px;
 	height: 273px;
-	padding-right: 5px;
+	padding-left: 1em;
+	padding-right: 0.3em;
+	padding-bottom: 0.3em;
 	background-repeat: no-repeat;
 	display: inline;
 	float: left;
@@ -160,7 +155,8 @@ p {
 .image_2 {
 	width: 421px;
 	height: 273px;
-	padding-right: 5px;
+	padding-bottom: 0.3em;
+	padding-right: 0.3em;
 	background-repeat: no-repeat;
 	display: inline;
 	float: left;
@@ -169,7 +165,8 @@ p {
 .image_5 {
 	width: 147px;
 	height: 273px;
-	padding-right: 5px;
+	padding-bottom: 0.3em;
+	padding-right: 0.3em;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	display: inline;
@@ -179,7 +176,8 @@ p {
 .image_4 {
 	width: 421px;
 	height: 273px;
-	padding-right: 5px;
+	padding-bottom: 0.3em;
+	padding-right: 0.3em;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	display: inline;
@@ -189,33 +187,20 @@ p {
 .image_3 {
 	width: 421px;
 	height: 273px;
-	padding-right: 1px;
+	padding-bottom: 0.3em;
+	padding-right: 0.3em;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	display: inline;
 	float: left;
 }
 
-
-.row_2 {
-	display:inline; /* put HOME . . . horizontaly */
-	float: left; /*squeeze all together*/
-	width: 100%;
-	height:100%;
-	justify-content: space-between;
-	padding-right: 37px;
-	padding-left: 37px;
-	align-items: center;
-	column-gap: 2px;
-	padding-top: 1px;
-	padding-bottom: 1px;
-	/*background-color: green;*/
-}
-
 .image_6 {
 	width: 421px;
 	height: 273px;
-	padding-right: 5px;
+	padding-left: 1em;
+	padding-bottom: 0.3em;
+	padding-right: 0.3em;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	display: inline;
@@ -225,7 +210,8 @@ p {
 .image_7 {
 	width: 421px;
 	height: 273px;
-	padding-right: 5px;
+	padding-bottom: 0.3em;
+	padding-right: 0.3em;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	display: inline;
@@ -235,7 +221,8 @@ p {
 .image_9 {
 	width: 421px;
 	height: 273px;
-	padding-right: 5px;
+	padding-bottom: 0.3em;
+	padding-right: 0.3em;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	display: inline;
@@ -245,7 +232,8 @@ p {
 .image_8 {
 	width: 147px;
 	height: 273px;
-	padding-right: 5px;
+	padding-bottom: 0.3em;
+	padding-right: 0.3em;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	display: inline;
@@ -255,33 +243,20 @@ p {
 .image_10 {
 	width: 421px;
 	height: 273px;
-	padding-right: 1px;
+	padding-bottom: 0.3em;
+	padding-right: 0.3em;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	display: inline;
 	float: left;
 }
 
-
-.row_3 {
-	display:inline; /* put HOME . . . horizontaly */
-	float: left; /*squeeze all together*/
-	width: 100%;
-	height:100%;
-	display: flex;
-	justify-content: space-between;
-	padding-right: 37px;
-	padding-left: 37px;
-	align-items: center;
-	column-gap: 2px;
-	padding-top: 1px;
-	padding-bottom: 2px;
-}
-
 .image_11 {
 	width: 421px;
 	height: 273px;
-	padding-right: 5px;
+	padding-left: 1em;
+	padding-bottom: 0.3em;
+	padding-right: 0.3em;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	display: inline;
@@ -291,7 +266,8 @@ p {
 .image_12 {
 	width: 147px;
 	height: 273px;
-	padding-right: 5px;
+	padding-bottom: 0.3em;
+	padding-right: 0.3em;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	display: inline;
@@ -301,7 +277,8 @@ p {
 .image_13 {
 	width: 421px;
 	height: 273px;
-	padding-right: 5px;
+	padding-bottom: 0.3em;
+	padding-right: 0.3em;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	display: inline;
@@ -311,7 +288,8 @@ p {
 .image_14 {
 	width: 421px;
 	height: 273px;
-	padding-right: 5px;
+	padding-bottom: 0.3em;
+	padding-right: 0.3em;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	display: inline;
@@ -322,31 +300,20 @@ p {
 .image_15 {
 	width: 421px;
 	height: 273px;
-	background-image:url("../images/gallery/img15.png");
+	padding-bottom: 0.3em;
+	padding-right: 0.3em;
 	background-size: 100%;
 	background-repeat: no-repeat;
-}
-
-
-.row_4 {
-	display:inline; /* put HOME . . . horizontaly */
-	float: left; /*squeeze all together*/
-	width: 100%;
-	height:100%;
-	display: flex;
-	justify-content: space-between;
-	padding-right: 37px;
-	padding-left: 37px;
-	align-items: center;
-	column-gap: 2px;
-	padding-top: 1px;
-	padding-bottom: 2px;
+	display: inline;
+	float: left;
 }
 
 .image_16 {
 	width: 563px;
 	height: 271px;
-	padding-right: 5px;
+	padding-left: 1em;
+	padding-bottom: 0.3em;
+	padding-right: 0.3em;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	display: inline;
@@ -356,7 +323,8 @@ p {
 .image_17 {
 	width: 419px;
 	height: 271px;
-	padding-right: 5px;
+	padding-bottom: 0.3em;
+	padding-right: 0.3em;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	display: inline;
@@ -366,7 +334,8 @@ p {
 .image_18 {
 	width: 419px;
 	height: 271px;
-	padding-right: 5px;
+	padding-bottom: 0.3em;
+	padding-right: 0.3em;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	display: inline;
@@ -376,7 +345,8 @@ p {
 .image_19 {
 	width: 419px;
 	height: 271px;
-	padding-right: 5px;
+	padding-bottom: 0.3em;
+	padding-right: 0.3em;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	display: inline;
