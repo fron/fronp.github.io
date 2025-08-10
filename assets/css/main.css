@@ -100,10 +100,13 @@ a {
 	background-image: url("../images/li_blue.png");
 }
 
+
 .image {
-	width: 100%;
-	height: 1080px;
-	background-image:url("../images/slide_img05.jpg");
+	width: min(1080px, 100%); /* Responsive width */
+	margin: 0 auto; /* Centers the Layout */ 
+	columns: 1 1080px;
+	display:inline; /* put HOME . . . horizontaly */
+	background-color: black;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-color:#red;
