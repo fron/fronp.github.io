@@ -101,12 +101,11 @@ a {
 }
 
 .image {
-	width: 100%;
-	height: 100%px;
-	background-image:url("../images/gallery/portraits/portraits_banner.png");
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-color: green;
+	width: min(1907px, 100%); /* Responsive width */
+	margin: 0 auto; /* Centers the Layout */ 
+	columns: 1 1907px;
+	display:inline; /* put HOME . . . horizontaly */
+	background-color: black;
 }
 
 h1 {
