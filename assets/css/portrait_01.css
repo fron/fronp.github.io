@@ -110,22 +110,12 @@ a {
 /**************************************/
 
 .image_frame{
-	display:inline; /* put HOME . . . horizontaly */
-	width: 100%;
-	height:100%;
-	display: flex;
-	padding-right: 50px;
-	padding-left: 320px;
-	padding-top: 20px;
-	padding-bottom: 10px;
-}
-.image {
-	width: 1189px;
-	height: 743px;
-	 
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-color: red; 
+	width: width: min(1189px, 100%);
+	columns: 1 1189px;
+	padding-right: 15%;
+	padding-left: 15%;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
 }
 
 p {

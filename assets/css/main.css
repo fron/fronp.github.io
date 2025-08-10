@@ -101,9 +101,9 @@ a {
 }
 
 .image {
-	width: min(1080px, 100%); /* Responsive width */
+	width: min(1920px, 100%); /* Responsive width */
 	margin: 0 auto; /* Centers the Layout */ 
-	columns: 1 1080px;
+	columns: 1 1920px;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-color:#red;
