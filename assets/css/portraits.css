@@ -132,6 +132,15 @@ p {
 	color:#1e1e1e;
 }
 
+.image-container {
+  position: relative; /* Permite posicionar elementos hijos absolutos */
+  display: inline-block; /* Para que el contenedor se ajuste al tamaño de la imagen */
+}
+
+.image-container img {
+  display: block; /* Evita espacios extra debajo de la imagen */
+}
+
 .row_1 {
 	width: min(421px, 100%); /* Responsive width */
 	margin: 0 auto; /* Centers the Layout */ 
@@ -332,14 +341,14 @@ p {
 	float: left;
 }
 
-
-.image-container {
-  position: relative; /* Permite posicionar elementos hijos absolutos */
-  display: inline-block; /* Para que el contenedor se ajuste al tamaño de la imagen */
-}
-
-.image-container img {
-  display: block; /* Evita espacios extra debajo de la imagen */
+.image_20 {
+	width: 25%;
+	height: 25%;
+	padding-bottom: 0.3em;
+	padding-right: 0.3em;
+	background-repeat: no-repeat;
+	display: inline;
+	float: left;
 }
 
 .image-container .btn_1 {
