@@ -3,8 +3,8 @@ body {
 }
 
 .image_frame{
-	width: width: min(1189px, 100%);
-	columns: 1 1189px;
+	
+	columns: 1 1189;
 	padding-right: 15%;
 	padding-left: 15%;
 	padding-top: 1.5em;
