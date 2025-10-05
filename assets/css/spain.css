@@ -262,6 +262,26 @@ p {
 	float: left;
 }
 
+.image_21 {
+	width: 25%;
+	height: 25%;
+	padding-bottom: 0.3em;
+	padding-right: 0.3em;
+	background-repeat: no-repeat;
+	display: inline;
+	float: left;
+}
+
+.image_22 {
+	width: 25%;
+	height: 25%;
+	padding-bottom: 0.3em;
+	padding-right: 0.3em;
+	background-repeat: no-repeat;
+	display: inline;
+	float: left;
+}
+
 .image-container .btn_1 {
   position: absolute;
   top: 50%; /* Centra verticalmente */

@@ -8,7 +8,7 @@ body:after {
 	height: 0;
 	overflow:hidden;
 	z-index: -1;
-	content: url="assets/images/spain/small/spain_banner.png";
+	content: url="assets/images/sf/small/sf_banner.png";
 }
 
 .image {
@@ -261,6 +261,17 @@ p {
 	display: inline;
 	float: left;
 }
+
+.image_21 {
+	width: 25%;
+	height: 25%;
+	padding-bottom: 0.3em;
+	padding-right: 0.3em;
+	background-repeat: no-repeat;
+	display: inline;
+	float: left;
+}
+
 
 .image-container .btn_1 {
   position: absolute;

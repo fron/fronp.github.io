@@ -292,6 +292,45 @@ p {
 	float: left;
 }
 
+.image_24 {
+	width: 25%;
+	height: 25%;
+	padding-bottom: 0.3em;
+	padding-right: 0.3em;
+	background-repeat: no-repeat;
+	display: inline;
+	float: left;
+}
+
+.image_25 {
+	width: 25%;
+	height: 25%;
+	padding-bottom: 0.3em;
+	padding-right: 0.3em;
+	background-repeat: no-repeat;
+	display: inline;
+	float: left;
+}
+
+.image_26 {
+	width: 25%;
+	height: 25%;
+	padding-bottom: 0.3em;
+	padding-right: 0.3em;
+	background-repeat: no-repeat;
+	display: inline;
+	float: left;
+}
+
+.image_27 {
+	width: 25%;
+	height: 25%;
+	padding-bottom: 0.3em;
+	padding-right: 0.3em;
+	background-repeat: no-repeat;
+	display: inline;
+	float: left;
+}
 
 .image-container .btn_1 {
   position: absolute;
