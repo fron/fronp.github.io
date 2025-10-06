@@ -8,7 +8,7 @@ body:after {
 	height: 0;
 	overflow:hidden;
 	z-index: -1;
-	content: url="assets/images/gallery/portraits/portraits_banner.png";
+	content: url="assets/images/gallery/la/la_banner.png";
 }
 
 .image {
@@ -371,6 +371,7 @@ p {
 	display: inline;
 	float: left;
 }
+
 
 .image-container .btn_1 {
   position: absolute;
